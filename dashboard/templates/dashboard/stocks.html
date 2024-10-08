@@ -14,6 +14,7 @@
                     <th class="bg-primary text-primary-content">Last Checked</th>
                     <th class="bg-primary text-primary-content">Units in stock</th>
                     <th class="bg-primary text-primary-content">Units Sold</th>
+                    <th class="bg-primary text-primary-content">Add</th>
                 </tr>
             </thead>
             <tbody>
@@ -23,6 +24,7 @@
                     <td>{{ item.last_checked }}</td>
                     <td>{{ item.units }}</td>
                     <td>{{ item.units_sold }}</td>
+                    <td><input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" /></td>
                 </tr>
                 {% endfor %}
             </tbody>
